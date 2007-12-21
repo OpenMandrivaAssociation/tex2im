@@ -10,6 +10,7 @@ Source0: 	%{name}-%{version}.tar.bz2
 License: 	GPL
 Group: 		Publishing
 Url: 		http://www.nought.de/tex2im.php
+BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArchitectures: noarch
 Requires: 	ImageMagick, tetex-latex, bash
 Provides: 	tex2im = %{version}-%{release}
