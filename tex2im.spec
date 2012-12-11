@@ -41,3 +41,27 @@ rm -rf %{buildroot}
 
 
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.8-3mdv2010.0
++ Revision: 434349
+- rebuild
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.8-2mdv2008.1
++ Revision: 136535
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Oct 24 2006 Lev Givon <lev@mandriva.org> 1.8-2mdv2007.0
++ Revision: 71706
+- Clean up spec file.
+- Remove changelog.
+- import tex2im 1.8-1mdk
+
