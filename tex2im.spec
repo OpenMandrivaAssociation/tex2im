@@ -1,6 +1,6 @@
 %define name 	tex2im
 %define version 1.8
-%define release 3
+%define release 4
 
 Summary: 	A simple tool for converting LaTeX formulas into pixmap graphics
 Name: 		%{name}
